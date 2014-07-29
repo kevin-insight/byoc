@@ -1,0 +1,6 @@
+# Site settings
+baseurl: "/byoc"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
