@@ -1,5 +1,5 @@
 /*
- * Typography
+ * Global
  */
 
 html {
@@ -11,13 +11,19 @@ html {
   }
 }
 body {
-  font-size: 1rem;
-  line-height: 1.35rem;
+  font-size: 1em;
+  line-height: 1.35;
+  margin-bottom: 40px;
 }
 .main-content {
   margin-top: 30px;
   max-width: 675px;
 }
+
+/*
+ * Typography
+ */
+
 p {
   margin-top: 0px;
   margin-bottom: 1rem;
@@ -81,6 +87,7 @@ blockquote {
 }
 .nav > li {
   margin-bottom: 0px;
+  font-size: 16px;
 }
 .navbar-brand {
   font-size: 18px;
@@ -95,8 +102,16 @@ blockquote {
  * Jumbotron
  */
 
+.jumbotron {
+  height: 400px;
+}
 .jumbotron h1 {
   font-size: 2rem;
+}
+.jumbotron p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.35;
 }
 
 /*

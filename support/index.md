@@ -5,4 +5,4 @@ title: Support
 
 # Support
 
-On this page: An index of available support materials.
+An index of available support materials.

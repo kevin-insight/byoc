@@ -5,4 +5,4 @@ title: Sample Curriculum
 
 # Sample Curriculum
 
-<p class="lead">On this page: The list of <a href="http://www.schoolsoftwaregroup.com/BuildYourOwnCurriculum/SampleCurriculum.aspx">sample curriculum</a> from the existing website.</p>
+The list of [sample curriculum](http://www.schoolsoftwaregroup.com/BuildYourOwnCurriculum/SampleCurriculum.aspx) from the existing website.
