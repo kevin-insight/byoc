@@ -37,6 +37,7 @@ img {
 }
 .main-content {
   margin-top: 30px;
+  margin-bottom: 30px;
   min-height: 300px;
 }
 
@@ -144,7 +145,6 @@ blockquote {
  */
 
 .call-to-action {
-  margin-bottom: 20px;
 }
 
 /*
