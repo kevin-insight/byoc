@@ -1,4 +1,11 @@
 /*
+
+Blue: #0093C9
+Green: #40A97E
+Orange: #F3A063
+Pink: #E08CB9
+
+/*
  * Global
  */
 
@@ -12,7 +19,7 @@ html {
 }
 body {
   font-size: 1em;
-  line-height: 1.35;
+  line-height: 1.4;
   margin-bottom: 40px;
   font-family: "sirba-web", Georgia, serif;
   color: #333;
@@ -57,16 +64,23 @@ h5,
 h6 {
   margin-top: 1.5rem;
   margin-bottom: .5rem;
+  line-height: 1.35;
 }
 h1 {
   margin-top: 0px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 ul {
   padding-left: 20px;
+}
+a {
+  color: #0093C9;
+}
+a:hover {
+  color: #197AB5;
 }
 ol {
   padding-left: 30px;
@@ -83,6 +97,9 @@ blockquote {
   padding-left: 2.25rem;
   padding-right: 2.25rem;
 }
+hr {
+  border-bottom: 2px solid #E7E7E7;
+}
 
 /*
  * Buttons
@@ -91,11 +108,20 @@ blockquote {
 .btn {
   font-size: 14px;
   font-family: Helvetica, sans-serif;
+  border-radius: 3px;
 }
 @media (min-width: 768px) {
   .btn {
     font-size: 16px;
   }
+}
+.btn-primary {
+  background-color: #0093C9;
+  border: 1px solid #fff;
+}
+.btn-primary:hover {
+  background-color: #197AB5;
+  border: 1px solid #fff;
 }
 
 /*
@@ -103,23 +129,36 @@ blockquote {
  */
 
 .navbar {
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-bottom: 0px;
+  background-color: #FFF;
+  border-bottom: 2px solid #E7E7E7;
   font-family: Helvetica, sans-serif;
 }
 .nav > li {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 17px;
+  height: 100%;
 }
-.navbar-brand {
-  font-size: 18px;
+/*.navbar-brand {
+  height: auto;
 }
-@media (min-width: 768px) {
-  .navbar-brand {
-    font-size: 20px;
-  }
+.navbar-brand .logo {
+  max-width: 250px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+@media (min-width: 980px) {
+  .navbar-collapse {
+    margin-top: 25px;
+  } 
+}
+.navbar-toggle {
+  border: 1px solid #0093C9;
+  margin-top: 30px;
+}
+.navbar-toggle .icon-bar {
+  background-color: #0093C9;
+}*/
 
 /*
  * Jumbotron
@@ -129,15 +168,20 @@ blockquote {
   height: 400px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 60px;
+  padding-top: 55px;
+  text-align: center;
+  background-color: #0093c9;
+  color: white;
 }
 .jumbotron h1 {
-  font-size: 2rem;
+  font-size: 1.95rem;
+  line-height: 1.2;
 }
 .jumbotron p {
-  font-weight: normal;
-  font-size: 20px;
+  font-size: 1.15rem;
   line-height: 1.35;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 /*
@@ -161,6 +205,8 @@ footer ul {
 }
 footer h2 {
   margin-top: 0px;
+  font-size: 1rem;
+  font-weight: normal;
 }
 footer ul li {
   margin-bottom: 0px;
