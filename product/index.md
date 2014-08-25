@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Product Tour
+slug: product
 ---
 
 # Curriculum Planning – Reinvented.

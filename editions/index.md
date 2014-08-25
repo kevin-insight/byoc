@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Editions
+slug: product
 ---
 
 # BuildYourOwnCurriculum Editions
