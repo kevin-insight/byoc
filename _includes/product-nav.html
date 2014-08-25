@@ -13,13 +13,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
       <ul class="nav navbar-nav">
-        <li><a href="{{ site.baseurl }}/product">Product Tour</a></li>
-        <li><a href="{{ site.baseurl }}/editions">Editions</a></li>
-        <li><a href="{{ site.baseurl }}/story">Story and Core Beliefs</a></li>
-        <li><a href="{{ site.baseurl }}/video-demos">Video Demos</a></li>
-        <li><a href="{{ site.baseurl }}/success-stories">Success Stories</a></li>
-        <li><a href="{{ site.baseurl }}/sample-curriculum">Sample Curriculum</a></li>
-        <li><a href="{{ site.baseurl }}/awards">Awards and Recognition</a></li>
+        <li {% if page.url == "/product/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/product">Features</a></li>
+        <li {% if page.url == "/editions/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/editions">Editions</a></li>
+        <li {% if page.url == "/story/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/story">Story and Core Beliefs</a></li>
+        <li {% if page.url == "/video-demos/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/video-demos">Video Demos</a></li>
+        <li {% if page.url == "/success-stories/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/success-stories">Success Stories</a></li>
+        <li {% if page.url == "/sample-curriculum/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/sample-curriculum">Sample Curriculum</a></li>
+        <li {% if page.url == "/awards/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/awards">Awards</a></li>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>

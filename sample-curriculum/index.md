@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sample Curriculum
+slug: product
 ---
 
 # Sample Curriculum

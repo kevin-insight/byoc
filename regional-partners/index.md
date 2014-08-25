@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Regional Partners
+slug: company
 ---
 
 # Regional Partners

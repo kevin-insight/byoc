@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Educational Resources
+slug: support
 ---
 
 # Educational Resources

@@ -42,6 +42,11 @@ img {
   	  -ms-transform: translateY(-50%);
   	      transform: translateY(-50%);
 }
+
+/*
+ * Grid
+ */
+
 .main-content {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -134,11 +139,11 @@ hr {
   margin-bottom: 0px;
   background-color: #FFF;
   border-bottom: 0px;
+  font-size: 17px;
   font-family: Helvetica, sans-serif;
 }
-.nav > li {
+.navbar-nav > li {
   margin-bottom: 0px;
-  font-size: 17px;
   height: 100%;
 }
 .navbar-brand {
@@ -154,11 +159,11 @@ hr {
     margin-top: 20px;
   } 
 }
-.navbar-toggle {
+.main-nav .navbar-toggle {
   border: 1px solid #0093C9;
   margin-top: 30px;
 }
-.navbar-toggle .icon-bar {
+.main-nav .navbar-toggle .icon-bar {
   background-color: #0093C9;
 }
 
@@ -168,15 +173,31 @@ hr {
 
 .sub-nav {
   background-color: #0093C9;
+  border-radius: 0px;
+  font-size: 14px;
 }
 .sub-nav .nav li {
   opacity: 1;
 }
-.sub-nav .nav li a {
+.sub-nav .navbar-nav > li > a {
   color: #FFF;
+  opacity: .7;
+}
+.sub-nav .navbar-nav > li > a:hover,
+.sub-nav .navbar-nav > li > a:focus,
+.sub-nav .navbar-nav > .active > a,
+.sub-nav .navbar-nav > .active > a:hover,
+.sub-nav .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  opacity: 1;
 }
 .sub-nav .navbar-collapse {
   margin-top: 0px;
+}
+@media (min-width: 768px) {
+  .sub-nav .navbar-collapse {
+    margin-left: 213px;
+  }
 }
 
 /*
@@ -185,6 +206,7 @@ hr {
 
 .jumbotron {
   height: 400px;
+  margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 55px;

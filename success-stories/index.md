@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Success Stories
+slug: product
 ---
 
 # Success Stories

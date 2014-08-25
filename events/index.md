@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Events
+slug: company
 ---
 
 # Events

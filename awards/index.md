@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Awards and Recognition
+slug: product
 ---
 
 # Awards and Recognition

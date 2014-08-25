@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+slug: company
 ---
 
 # Contact Us

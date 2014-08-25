@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Story
+slug: product
 ---
 
 # Built For Teachers By Teachers
