@@ -131,6 +131,11 @@ hr {
   background-color: #197AB5;
   border: 1px solid #fff;
 }
+.btn-inverse {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
 
 /*
  * Navigation bar
@@ -268,6 +273,17 @@ hr {
   line-height: 1.35;
   margin-top: 15px;
   margin-bottom: 25px;
+}
+
+/*
+ * Call to action
+ */
+
+.call-to-action {
+  background-color: #40A97E;
+  color: #FFF;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 /*

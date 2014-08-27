@@ -1,5 +1,9 @@
 {% include header.html %}
     
     {{ content }}
-    
+
+{% if page.calltoaction %}
+  {% include call-to-action.html %}
+{% endif %}
+
 {% include footer.html %}

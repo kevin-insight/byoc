@@ -2,6 +2,7 @@
 layout: page
 title: Product Tour
 slug: product
+calltoaction: true
 ---
 
 # Curriculum Planning â€“ Reinvented.
@@ -29,6 +30,4 @@ Cross-district sharing allows you to view curriculum from other districts. Donâ€
 Define, manage and analyze district-wide common assessments as well as ever-changing state and national standards. Make improvements to ensure assessments and teaching are in sync and successful plans are retained while unsuccessful or unnecessary portions are removed.
 
 ## Classroom Management
-Lead discussions, make announcements, assign homework and provide educational resources to students and parents through a student portal. 
-
-<a class="btn btn-lg btn-primary" href="{{ site.baseurl }}/webinars">Attend a Webinar</a>
+Lead discussions, make announcements, assign homework and provide educational resources to students and parents through a student portal.
