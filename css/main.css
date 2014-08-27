@@ -267,6 +267,9 @@ hr {
   color: white;
   letter-spacing: .02rem;
 }
+.jumbotron-caption {
+  visibility: hidden;
+}
 .jumbotron h1 {
   font-size: 1.95rem;
   font-weight: normal;
@@ -316,4 +319,45 @@ footer ul li {
 }
 footer ul li a {
   color: #FFF;
+}
+
+/*
+ * Animations
+ */
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.25s;	
+	-webkit-animation-duration: 1.25s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0.0;		
+	}
+	40% {
+		opacity: 0.0;		
+	}
+	100% {
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0.0;		
+	}
+	40% {
+		opacity: 0.0;		
+	}
+	100% {
+		opacity: 1;	
+	}		
 }
