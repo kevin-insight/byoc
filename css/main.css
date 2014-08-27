@@ -133,7 +133,11 @@ hr {
 }
 .btn-inverse {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn-inverse:hover {
+  background-color: rgba(0, 0, 0, .1);
   color: #fff;
 }
 
