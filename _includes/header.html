@@ -35,9 +35,9 @@
         <!-- Collect the nav links, forms, and other content for toggling-->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="{% if page.slug =="product" %}active{% endif %}"><a href="{{ site.baseurl }}/product">Product Tour</a></li>
-            <li><a href="{{ site.baseurl }}/company">Company</a></li>
-            <li><a href="{{ site.baseurl }}/support">Support</a></li>
+            <li {% if page.slug == "product" %}class="active"{% endif %}><a href="{{ site.baseurl }}/product">Product Tour<span class="arrow-up" id="arrow-product"></span></a></li>
+            <li {% if page.slug == "company" %}class="active"{% endif %}><a href="{{ site.baseurl }}/company">Company<span class="arrow-up" id="arrow-company"></span></a></li>
+            <li {% if page.slug == "support" %}class="active"{% endif %}><a href="{{ site.baseurl }}/support">Support<span class="arrow-up" id="arrow-support"></span></a></li>
           </ul>
           <div class="navbar-right">
             <a href="{{ site.baseurl }}/webinars" type="button" class="btn navbar-btn btn-primary">Attend a Webinar</a>

@@ -167,6 +167,31 @@ hr {
 .main-nav .navbar-toggle .icon-bar {
   background-color: #0093C9;
 }
+.arrow-up {
+  position: absolute;
+  display: none;
+  left: 50%;
+  bottom: -20px;
+	width: 0; 
+	height: 0; 
+  margin-left: -7px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+}
+#arrow-product {
+  border-bottom: 7px solid #0093C9;
+}
+#arrow-company {
+  border-bottom: 7px solid #40A97E;
+}
+#arrow-support {
+  border-bottom: 7px solid #F3A063;
+}
+@media (min-width: 980px) {
+  .navbar-nav > .active > a > .arrow-up {
+    display: block;
+  }
+}
 
 /*
  * Sub-navigation bar
