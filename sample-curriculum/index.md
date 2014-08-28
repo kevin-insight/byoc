@@ -2,6 +2,7 @@
 layout: page
 title: Sample Curriculum
 slug: product
+calltoaction: yes
 ---
 
 # Browse Before You Build

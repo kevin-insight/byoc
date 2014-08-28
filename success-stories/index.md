@@ -2,6 +2,7 @@
 layout: page
 title: Success Stories
 slug: product
+calltoaction: yes
 ---
 
 # Proven Powerful
@@ -9,26 +10,26 @@ slug: product
 Hear directly from teachers, principles and administrators how BYOC has changed their approach to curriculum and improved communication, lesson planning and assessment district-wide.
 
 > "BYOC is a powerful communication and accountability tool. All educators recognize the gap between the written curriculum and taught curriculum and struggle with the resulting problems. By putting K-12 curriculum at the fingertips of every teacher in the district, staff has access to all content areas, making integration, differentiation, and accountability for key concepts and pacing obvious. The level of conversation is elevated, focusing on meeting individual needs of students while ensuring equity of opportunity. It brings everyone to the same page."
-
+>
 >**– Pat Deklotz, Superintendent**
 
 > "We pursued three elusive goals until our work with BYOC software provided us with a successful resolution. We needed 1) a "standards-up" curriculum writing tool to assure that our instruction was aligned with an array of national, state and local standards; 2) a software tool teachers could use "anywhere, anytime" in efforts to analyze, describe and strengthen curriculum documents; and 3) software that made sense to teachers regardless of grade level or subject area. As an added bonus, instead of being an "as is" tool, BYOC has provided wonderful, continuing modifications to their product that have answered so many of our teacher's ‘I wish that our software also did this’ concerns."
-
+>
 >**– Dr. Stephen Seyfer, Superintendent, SCHOOL?**
 
 > "Up until now there was no easy place for (teachers) to go and find out what the standards and expectations are for a given course. BYOC gives real credibility to what's happening."
-
+>
 >**– Marci Thiry, Kindergarten Teacher, SCHOOL?**
 
 > "BYOC is the Cadillac of all computerized curriculum programs! Use as much or as little as you like. It is a pragmatic and systematic tool, allowing TEACHERS to create their own curricula! With teacher ownership, it is much more likely to be used throughout the school year. BYOC will not be sitting dormant in some top drawer of an unused file cabinet. Instead, it will be referred to time and time again as the school year progresses. Furthermore, BYOC bridges the gap between state standards and actual classroom practices. Before BYOC, I was frustrated because I would get to the end of the year and wonder why I hadn't covered all of my key concepts. Now, I have a clearly defined outline of my year with specific topics and concepts for each week. I feel better equipped to stay on task and feel the students will greatly benefit. I am excited about viewing other music teachers' curricula online and hope that they, in turn, will take advantage of mine."
-
+>
 >**– Carmen Youra, Elementary Music Specialist, SCHOOL?**
 
 > "Children cannot learn and teachers cannot teach if they do not know the targets. A well-articulated, viable curriculum has helped to maximize student learning in our district. BYOC has helped us identify our targets for learning, which are aligned to governmental standards. It has also helped us communicate with all constituencies: teachers (including teachers from other districts), community, parents, administrators, and students. BYOC has put us all on the same page."
-
+>
 >**- Randy Hanson, Teacher/Curriculum Coordinator Integrated Language Arts, SCHOOL?**
 
-## Case Studies
+# Case Studies
 
 ### Park Hill School District, Missouri
 

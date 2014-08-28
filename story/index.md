@@ -8,8 +8,7 @@ slug: product
 
 ## The story of how we developed BYOC.
 
-I often refer to BuildYourOwnCurriculum as an “accidental” product.  
-BYOC was never intended to be for sale. It began as a piece of software designed to help a frustrated school district in Wisconsin. The district hadn’t redesigned their curriculum in almost 10 years and needed to do extensive curriculum work. However, they didn’t want to do it on paper. They knew there had to be a better way. 
+I often refer to BuildYourOwnCurriculum as an “accidental” product. BYOC was never intended to be for sale. It began as a piece of software designed to help a frustrated school district in Wisconsin. The district hadn’t redesigned their curriculum in almost 10 years and needed to do extensive curriculum work. However, they didn’t want to do it on paper. They knew there had to be a better way. 
 
 After a year evaluating every product on the market, they were disappointed. Everything was designed for administrators … not teachers. They felt, for any curriculum initiative to be successful, it must deliver value directly to the teacher. So, they decided to design their own solution, which is where I came in. As a software development consultant, I was hired to create a custom solution. 
 
