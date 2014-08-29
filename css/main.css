@@ -266,11 +266,13 @@ hr {
  */
 
 .jumbotron {
-  height: 400px;
+  position: relative;
+  height: 380px;
   margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 55px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-align: center;
   background-color: #0093c9;
   color: white;
@@ -280,6 +282,11 @@ hr {
 }
 .jumbotron-caption {
   visibility: hidden;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .jumbotron h1 {
   font-size: 1.95rem;
