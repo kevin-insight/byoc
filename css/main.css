@@ -133,7 +133,7 @@ hr {
 }
 .btn-inverse {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid rgba(255,255,255,.6);
   color: #fff;
 }
 .btn-inverse:hover {
@@ -211,7 +211,7 @@ hr {
   border-radius: 0px;
   font-size: 15px;
   min-height: 0px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 5px solid rgba(255,255,255,.6);
 }
 .sub-nav .nav li {
   opacity: 1;
@@ -267,6 +267,8 @@ hr {
   background-color: #0093c9;
   color: white;
   letter-spacing: .02rem;
+  border-top: 5px solid rgba(255,255,255,.6);
+  border-bottom: 5px solid rgba(255,255,255,.6);
 }
 .jumbotron-caption {
   visibility: hidden;
@@ -304,7 +306,7 @@ hr {
   color: #FFF;
   text-align: center;
   padding-bottom: 40px;
-  border-top: 3px solid #fff;
+  border-top: 5px solid rgba(255,255,255,.5);
 }
 
 /*
@@ -317,7 +319,7 @@ footer {
   color: #FFF;
   padding-top: 20px;
   padding-bottom: 40px;
-  border-top: 3px solid #9AD2E8;
+  border-top: 5px solid #9AD2E8;
   font-size: .9rem;
 }
 footer h2 {
