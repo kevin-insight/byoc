@@ -2,10 +2,9 @@
 layout: page
 title: Product Tour
 slug: product
-calltoaction: true
 ---
 
-# Curriculum Planning – Reinvented.
+# Curriculum Planning—Reinvented.
 
 Take a virtual tour of BYOC’s most valuable and convenient features.
 
@@ -29,7 +28,7 @@ Flexible design provides guidance to input curriculum without hindering creativi
 
 ## Share and Collaborate
 
-Cross-district sharing allows you to view curriculum from other districts. Don’t reinvent the wheel – identify others’ successes and replicate them. Also, streamline curriculum sharing with administrators and other teachers to ensure overall alignment.
+Cross-district sharing allows you to view curriculum from other districts. Don’t reinvent the wheel—identify others’ successes and replicate them. Also, streamline curriculum sharing with administrators and other teachers to ensure overall alignment.
 
 <img src="holder.js/100%x350/text:Screenshot">
 

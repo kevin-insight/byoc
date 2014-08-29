@@ -4,6 +4,8 @@ title: Editions
 slug: product
 ---
 
-# BuildYourOwnCurriculum Editions
+# Breakdown the Benefits of BYOC
 
-A chart comparing BYOC and BYOC+ to highlight the differences between the two.
+Compare your options and select the version of BYOC software that best fits the needs and budget of your district.
+
+(Comparison chart)

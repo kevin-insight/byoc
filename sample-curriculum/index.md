@@ -2,12 +2,11 @@
 layout: page
 title: Sample Curriculum
 slug: product
-calltoaction: yes
 ---
 
-# Browse Before You Build
+# Do Your Homework
 
-Click through sample curricula from schools currently experiencing success with BYOC.
+Browse samples before you build! Click through curricula from schools currently experiencing success with BYOC.
 
 * [Hancock Place, Saint Louis, MO](http://hancock.buildyourowncurriculum.com)
 * [Kiel Area School District, Kiel, WI](http://kiel.buildyourowncurriculum.com)

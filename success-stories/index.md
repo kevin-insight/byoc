@@ -2,7 +2,6 @@
 layout: page
 title: Success Stories
 slug: product
-calltoaction: yes
 ---
 
 # Proven Powerful

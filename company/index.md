@@ -6,12 +6,12 @@ slug: company
 
 # About School Software Group
 
-The School Software Group (SSG) is a products and services organization headquartered in Appleton, Wisconsin. Over the past five years SSG has found itself increasingly approached by school districts, or school organizations, with projects. Through the combination of SSG's technical skills with the educational expertise of our partner districts, we have been able to create intelligent and practical software specially designed for schools.
+## Creators of BuildYourOwnCurriculum
 
-Our approach has been to partner with educational experts in the development of solutions specifically designed to address problems districts face today.
+Based in Appleton, Wisconsin, School Software Group is a web development and technology company specializing in education. Best known for their award-winning web-based software, BuildYourOwnCurriculum (BYOC), School Software Group serves over 500 districts in more than 28 states nation-wide. With a strong focus on product innovation, School Software Group works closely with district partners integrating the latest technology with ever-changing education standards to address the challenges facing today’s educators. 
 
-## Our Educational Partners
+In addition to BYOC, School Software Group collaborates with school districts to offer customized solutions, such as the Wisconsin Open Enrollment Reporting and Management System (WOERMS) developed in partnership with Wisconsin Association of School Business Officials ([WASBO](http://wasbo.com)).
 
-**[Menasha Joint School District](http://www.mjsd.k12.wi.us)** – Partnered with SSG to create BuildYourOwnCurriculum (a curriculum development and curriculum mapping tool), Write-Track (a 6+1 Traits assessment and analysis tool) and BuildYourOwnAssessment (a district-wide assessment and analysis tool). Each of these products was originally developed to solve issues being encountered by the school district with no plan of being offered for resale.
+As a company born from a small district project in the Midwest, School Software Group retains the “local feel” of managing business relationships. With over 50 regional representatives nation-wide, School Software Group offers a local presence for face-to-face informational meetings, software training and support.
 
-**[Wisconsin Association of School Business Officials (WASBO)](http://wasbo.com)** – SSG and WASBO teamed together to create and offer the Wisconsin Open Enrollment Reporting and Management System (WOERMS). SSG was originally approached by a consortium of 12 districts to create this system, but, given that the information interchange aspects of the system are at their best when many districts are using it, WASBO partnered with SSG and the districts to assist in the rollout of this offering.
+Browse our list of authorized [regional partners]({{ site.baseurl }}/regional-partners) to find a BYOC expert near you.
