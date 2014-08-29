@@ -13,13 +13,13 @@ Take a virtual tour of BYOC’s most valuable and convenient features.
 
 Document all aspects of curriculum district-wide. See details of lesson plans, topics and courses leading like a roadmap to achieve curriculum standards and goals. Teachers can plan, design and publish lesson plans in a format that automatically aligns lesson content with defined learning targets.
 
-![Course Details](/img/screenshot-course-details.jpg)
+![Course Details]({{ site.baseurl }}/img/screenshot-course-details.jpg)
 
 ## Organized Framework
 
 Enter information into practical and intuitive framework to achieve organization and consistency district-wide. Use filters and search capabilities to easily reference courses, topics or other details.
 
-![Curriculum Screenshot](/img/screenshot-curriculum.jpg)
+![Curriculum Screenshot]({{ site.baseurl }}/img/screenshot-curriculum.jpg)
 
 ## Customization
 
