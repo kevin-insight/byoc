@@ -226,15 +226,14 @@ hr {
   opacity: 1;
 }
 .sub-nav .navbar-nav > li > a {
-  color: #FFF;
-  opacity: .7;
+  color: rgba(255,255,255,.7);
 }
 .sub-nav .navbar-nav > li > a:hover,
 .sub-nav .navbar-nav > li > a:focus,
 .sub-nav .navbar-nav > .active > a,
 .sub-nav .navbar-nav > .active > a:hover,
 .sub-nav .navbar-nav > .active > a:focus {
-  opacity: 1;
+  color: rgb(255,255,255);
 }
 .sub-nav .navbar-nav {
   margin-top: 0px;
@@ -267,12 +266,10 @@ hr {
 
 .jumbotron {
   position: relative;
-  height: 380px;
+  height: 400px;
   margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
   text-align: center;
   background-color: #0093c9;
   color: white;
