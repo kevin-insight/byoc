@@ -88,7 +88,7 @@ a {
   color: #0093C9;
 }
 a:hover {
-  color: #197AB5;
+  color: #40A97E;
 }
 ol {
   padding-left: 30px;
@@ -151,6 +151,15 @@ hr {
   border-bottom: 0px;
   font-size: 17px;
   font-family: Helvetica, sans-serif;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.main-nav .nav > li > a:hover,
+.main-nav .nav > li > a:focus {
+  color: #7E7E7E;
 }
 .navbar-nav > li {
   margin-bottom: 0px;
@@ -225,7 +234,6 @@ hr {
 .sub-nav .navbar-nav > .active > a,
 .sub-nav .navbar-nav > .active > a:hover,
 .sub-nav .navbar-nav > .active > a:focus {
-  background-color: transparent;
   opacity: 1;
 }
 .sub-nav .navbar-nav {
