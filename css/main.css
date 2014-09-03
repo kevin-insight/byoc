@@ -1,3 +1,5 @@
+---
+---
 /*
 
 Blue: #0093C9
@@ -275,7 +277,7 @@ hr {
   letter-spacing: .02rem;
   border-top: 7px solid rgba(0,147,201,.6);
   border-bottom: 7px solid rgba(0,147,201,.6);
-  background: #E7E7E7 url(/img/intro-collage.jpg) no-repeat fixed;
+  background: #E7E7E7 url({{ site.baseurl }}/img/intro-collage.jpg) no-repeat fixed;
   height: 450px;
 }
 @media (min-width: 768px) {
