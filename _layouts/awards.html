@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="row gallery">
+  {% for post in site.categories.award %}
+  <div class="col-sm-4 col-xs-6">
+    <a href="{{ post.url }}"><img src="/img/{{ post.image }}"></a>
+  </div>
+  {% endfor %}
+</div>

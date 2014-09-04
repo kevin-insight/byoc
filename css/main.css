@@ -1,11 +1,29 @@
 ---
 ---
 /*
+Table of Contents
+
+1. Global
+2. Grid
+3. Typography
+4. Buttons
+5. Navigation Bar
+6. Sub-navigation Bar
+7. Jumbotron
+8. Featurette
+9. Call to Action
+10. Footer
+11. Animations
+*/
+
+/*
+Colors
 
 Blue: #0093C9
 Green: #40A97E
 Orange: #F3A063
 Pink: #E08CB9
+*/
 
 /*
  * Global
@@ -20,17 +38,17 @@ html {
   }
 }
 body {
+  font-family: "sirba-web", Georgia, serif;
   font-size: 1em;
   line-height: 1.45;
   color: #2D2D2D;
-  font-family: "sirba-web", Georgia, serif;
   background-color: #E7E7E7;
 }
 img {
-  max-width: 100%;
-  height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
 }
 /* Helper class to center a set of columns horizontally */
 .center-block {
@@ -38,11 +56,7 @@ img {
 }
 /* Helper class to center things vertically */
 .vertical-center {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  	  -ms-transform: translateY(-50%);
-  	      transform: translateY(-50%);
+
 }
 
 /*
@@ -102,11 +116,12 @@ ol li {
   margin-bottom: .75rem;
 }
 blockquote {
-  border-left: none;
-  font-size: .9rem;
-  line-height: 1.35;
   padding-left: 2.25rem;
   padding-right: 2.25rem;
+  font-size: .9rem;
+  line-height: 1.35;
+  border-left: none;
+  
 }
 hr {
   border-bottom: 2px solid #E7E7E7;
@@ -150,10 +165,10 @@ hr {
 
 .navbar {
   margin-bottom: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
   background-color: #FFF;
   border-bottom: 0px;
-  font-size: 17px;
-  font-family: Helvetica, sans-serif;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -172,9 +187,9 @@ hr {
   height: auto;
 }
 .navbar-brand .logo {
-  max-width: 213px;
   margin-top: 5px;
   margin-bottom: 5px;
+  max-width: 213px;
 }
 @media (min-width: 980px) {
   .navbar-collapse {
@@ -190,14 +205,19 @@ hr {
 }
 .arrow-up {
   position: absolute;
-  display: none;
   left: 50%;
   bottom: -20px;
+  display: none;
+  margin-left: -7px;
 	width: 0; 
 	height: 0; 
-  margin-left: -7px;
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
+}
+@media (min-width: 980px) {
+  .navbar-nav > .active > a > .arrow-up {
+    display: block;
+  }
 }
 #arrow-product {
   border-bottom: 7px solid #0093C9;
@@ -208,25 +228,17 @@ hr {
 #arrow-support {
   border-bottom: 7px solid #F3A063;
 }
-@media (min-width: 980px) {
-  .navbar-nav > .active > a > .arrow-up {
-    display: block;
-  }
-}
 
 /*
  * Sub-navigation bar
  */
 
 .sub-nav {
-  background-color: #0093C9;
   border-radius: 0px;
   font-size: 15px;
   min-height: 0px;
+  background-color: #0093C9;
   border-bottom: 7px solid rgba(255,255,255,.6);
-}
-.sub-nav .nav li {
-  opacity: 1;
 }
 .sub-nav .navbar-nav > li > a {
   color: rgba(255,255,255,.7);
@@ -272,13 +284,13 @@ hr {
   margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  height: 450px;
   text-align: center;
-  color: white;
   letter-spacing: .02rem;
+  color: white;
   border-top: 7px solid rgba(0,147,201,.6);
   border-bottom: 7px solid rgba(0,147,201,.6);
   background: #E7E7E7 url({{ site.baseurl }}/img/intro-collage.jpg) no-repeat fixed;
-  height: 450px;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -299,42 +311,60 @@ hr {
   }
 }
 .jumbotron-caption {
-  visibility: hidden;
-  max-width: 650px;
+  /* Positioning to center caption vertically in jumbotron */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  	  -ms-transform: translateY(-50%);
+  	      transform: translateY(-50%);
+ 
+  /* For entrance animation */
+  visibility: hidden; 
+  
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,.3));
-	-moz-filter: drop-shadow(0px 0px 5px rgba(0,0,0,.3));
-	-ms-filter: drop-shadow(0px 0px 5px rgba(0,0,0,.3));
-	-o-filter: drop-shadow(0px 0px 5px rgba(0,0,0,.3));
-	filter: drop-shadow(0px 0px 5px rgba(0,0,0,.3));
+  max-width: 650px;
+  text-shadow: 0px 0px 10px rgba(0,0,0,.5);
 }
 .jumbotron h1 {
   font-size: 1.95rem;
-  font-weight: normal;
   line-height: 1.2;
+  font-weight: normal;
 }
 .jumbotron p {
-  font-size: 1.15rem;
-  line-height: 1.35;
   margin-top: 15px;
   margin-bottom: 25px;
+  font-size: 1.15rem;
+  line-height: 1.35;
 }
 
 /*
- * Featurette
+ * Feature list
  */
 
-.featurette-divider {
+.feature-list hr {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.featurette h2 {
+.feature-list h2 {
   margin-top: 0px;
+}
+
+/*
+ * Gallery
+ */
+
+.gallery img {
+  max-height: 120px;
+}
+@media (min-width: 1200px) {
+  .gallery img {
+    max-height: 135px;
+  }
 }
 
 /*
@@ -342,32 +372,30 @@ hr {
  */
 
 .call-to-action {
-  background-color: #40A97E;
-  color: #FFF;
-  text-align: center;
   padding-bottom: 40px;
+  text-align: center;
+  color: #FFF;
+  background-color: #40A97E;
   border-top: 5px solid rgba(255,255,255,.5);
 }
 .call-to-action h1,
 .call-to-action h2 {
-  color: #FFF;
   letter-spacing: .02rem;
+  color: #FFF;
 }
-
-
 
 /*
  * Footer
  */
 
 footer {
-  font-family: Helvetica, sans-serif;
-  background-color: #0093C9;
-  color: #FFF;
   padding-top: 20px;
   padding-bottom: 40px;
-  border-top: 5px solid #9AD2E8;
+  font-family: Helvetica, sans-serif;
   font-size: .9rem;
+  color: #FFF;
+  background-color: #0093C9;
+  border-top: 5px solid #9AD2E8;
 }
 footer h2 {
   font-size: 1rem;
@@ -390,27 +418,23 @@ footer ul li a {
   color: #FFF;
 }
 footer ul li a:hover {
-  color: #FFF;
   text-decoration: none;
+  color: #FFF;
 }
 
 /*
  * Animations
  */
 
-.fadeIn{
+.fadeIn {
 	animation-name: fadeIn;
 	-webkit-animation-name: fadeIn;	
-
 	animation-duration: 1.25s;	
 	-webkit-animation-duration: 1.25s;
-
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;
-
 	visibility: visible !important;	
 }
-
 @keyframes fadeIn {
 	0% {
 		opacity: 0.0;		
@@ -422,7 +446,6 @@ footer ul li a:hover {
 		opacity: 1;	
 	}		
 }
-
 @-webkit-keyframes fadeIn {
 	0% {
 		opacity: 0.0;		
