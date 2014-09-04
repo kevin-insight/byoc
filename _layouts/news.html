@@ -12,7 +12,7 @@ layout: page
     <p>{{ post.date | date: "%B %-d, %Y" }}</p>
   </div>
   <div class="col-md-3">
-    <a href="{{ post.url }}"><img src="/img/{{ post.image }}"></a>
+    <a href="{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.image }}"></a>
   </div>
 </div>
 {{ post.content | truncatewords: 50 }}
