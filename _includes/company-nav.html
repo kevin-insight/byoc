@@ -2,7 +2,7 @@
   <div class="container">
     <ul class="nav navbar-nav">
       <li {% if page.url == "/company/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/company">About Us</a></li>
-      <li {% if page.url == "/news/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
+      <li {% if page.url contains "news" %}class="active"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
       <li {% if page.url == "/events/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/events">Events</a></li>
       <li {% if page.url == "/regional-partners/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/regional-partners">Regional Partners</a></li>
       <li {% if page.url == "/contact/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>

@@ -5,15 +5,16 @@ layout: page
 {{ content }}
 
 {% for post in site.categories.news %}
-<hr>
 <div class="row">
-  <div class="col-md-9">
-    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+  <div class="col-sm-9">
+    <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
     <p>{{ post.date | date: "%B %-d, %Y" }}</p>
   </div>
-  <div class="col-md-3">
-    <a href="{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.image }}"></a>
+  <div class="col-sm-3">
+    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.image }}"></a>
   </div>
 </div>
 {{ post.content | truncatewords: 50 }}
+<p><a href="{{ site.baseurl }}{{ post.url }}">Read more...</a></p>
+<hr>
 {% endfor %}

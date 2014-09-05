@@ -54,10 +54,6 @@ img {
 .center-block {
   float: none;
 }
-/* Helper class to center things vertically */
-.vertical-center {
-
-}
 
 /*
  * Grid
@@ -238,7 +234,7 @@ hr {
   font-size: 15px;
   min-height: 0px;
   background-color: #0093C9;
-  border-bottom: 7px solid rgba(255,255,255,.6);
+  border-bottom: 5px solid rgba(255,255,255,.6);
 }
 .sub-nav .navbar-nav > li > a {
   color: rgba(255,255,255,.7);
